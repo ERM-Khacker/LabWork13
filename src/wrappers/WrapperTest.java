@@ -49,9 +49,9 @@ public class WrapperTest {
         Character c4 = Character.valueOf('R');
 
 
-        /*3.Создать переменную типа Double присвоить ей значение с дробнойчастью.*/
+        /*3.Создать переменную типа Double присвоить ей значение с дробной частью.*/
         Double value = 100.2;
-        /*3.1 Создать переменный примитивных типов (byte, short, int, float, long)*/
+        /*3.1 Создать переменные примитивных типов (byte, short, int, float, long)*/
         byte num1 = 100;
         short num2 = 1000;
         int num3 = 100000;
@@ -83,8 +83,8 @@ public class WrapperTest {
         System.out.println(infinityValue); // NaN
 
         WrapperTest wrap = new WrapperTest();
-        wrap.isNaN(0.0, 0.0);
-        wrap.isInfinity(20.2, 0.0);
+        wrap.isNaN(0.0, 0.0); // NaN
+        wrap.isInfinity(20.2, 0.0); // Infinity
 
         /*5. Создать 2 переменных типа Long присвоить обеим значения 120*/
         Long longer1 = 120L;
