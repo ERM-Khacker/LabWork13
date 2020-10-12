@@ -49,7 +49,7 @@ public class WrapperTest {
         Character c4 = Character.valueOf('R');
 
 
-        /*3.Создать переменную типа Double присвоить ей значение с дробнойчастью.*/
+        /*3.Создать переменную типа Double присвоить ей значение с дробной частью.*/
         Double value = 100.2;
         /*3.1 Создать переменный примитивных типов (byte, short, int, float, long)*/
         byte num1 = 100;
